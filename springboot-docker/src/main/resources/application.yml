@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  application:
+    name:springboot-docker #服务名称配置
+jdbc:
+  url:
+  driverClassName:
+  username:
+  password:

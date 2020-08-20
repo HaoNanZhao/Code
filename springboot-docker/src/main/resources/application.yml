@@ -3,8 +3,13 @@ server:
 spring:
   application:
     name:springboot-docker #服务名称配置
-jdbc:
-  url:
-  driverClassName:
-  username:
-  password:
+  datasource:
+    url: jdbc:mysql://49.234.125.145:3307/mysqlForLearning
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+mybatis:
+  mapper-locations: mappers/**/*.xml  #xml文件扫描地址
+  type-aliases-package: com.haonan.pojo  #返回实体类地址
+  configuration:
+    map-underscore-to-camel-case: true  #驼峰命名转换  数据库的下划线换成java中的驼峰

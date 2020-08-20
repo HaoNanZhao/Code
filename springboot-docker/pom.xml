@@ -16,6 +16,8 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <!--本项目要打包成的docker镜像的前缀-->
+        <docker.image.prefix>hnImage</docker.image.prefix>
     </properties>
 
     <dependencies>
@@ -47,6 +49,20 @@
             <artifactId>druid</artifactId>
             <version>1.1.12</version>
         </dependency>
+
+        <!--mysql的数据库驱动 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <!--设置mybatis的起步依赖  包含jdbc的起步依赖了-->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>2.0.1</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -55,6 +71,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+
         </plugins>
     </build>
 

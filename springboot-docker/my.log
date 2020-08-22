@@ -32,3 +32,46 @@
 2020-08-22 === [main] === WARN  === c.h.s.SpringbootDockerApplicationTests ==== 这是warn日志
 2020-08-22 === [main] === ERROR === c.h.s.SpringbootDockerApplicationTests ==== 这是error日志
 2020-08-22 === [SpringContextShutdownHook] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-22 15:54:14.769  INFO 4088 --- [main] c.h.s.SpringbootDockerApplicationTests   : Starting SpringbootDockerApplicationTests on 信息部赵浩男 with PID 4088 (started by 14585 in D:\Study\Code\springboot-docker)
+2020-08-22 15:54:14.771 DEBUG 4088 --- [main] c.h.s.SpringbootDockerApplicationTests   : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-22 15:54:14.772  INFO 4088 --- [main] c.h.s.SpringbootDockerApplicationTests   : The following profiles are active: dev
+2020-08-22 15:54:15.536  WARN 4088 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[mapper]' package. Please check your configuration.
+2020-08-22 15:54:17.367  INFO 4088 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 15:54:17.964  INFO 4088 --- [main] c.h.s.SpringbootDockerApplicationTests   : Started SpringbootDockerApplicationTests in 3.925 seconds (JVM running for 5.553)
+2020-08-22 15:54:18.275 TRACE 4088 --- [main] c.h.s.SpringbootDockerApplicationTests   : 这是trace日志
+2020-08-22 15:54:18.276 DEBUG 4088 --- [main] c.h.s.SpringbootDockerApplicationTests   : 这是debug日志
+2020-08-22 15:54:18.276  INFO 4088 --- [main] c.h.s.SpringbootDockerApplicationTests   : 这是info日志
+2020-08-22 15:54:18.276  WARN 4088 --- [main] c.h.s.SpringbootDockerApplicationTests   : 这是warn日志
+2020-08-22 15:54:18.276 ERROR 4088 --- [main] c.h.s.SpringbootDockerApplicationTests   : 这是error日志
+2020-08-22 15:54:18.304  INFO 4088 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-22 15:54:21.205  INFO 20504 --- [main] c.h.s.SpringbootDockerApplication        : Starting SpringbootDockerApplication on 信息部赵浩男 with PID 20504 (D:\Study\Code\springboot-docker\target\classes started by 14585 in D:\Study\Code\springboot-docker)
+2020-08-22 15:54:21.211 DEBUG 20504 --- [main] c.h.s.SpringbootDockerApplication        : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-22 15:54:21.212  INFO 20504 --- [main] c.h.s.SpringbootDockerApplication        : The following profiles are active: dev
+2020-08-22 15:54:21.938  WARN 20504 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[mapper]' package. Please check your configuration.
+2020-08-22 15:54:22.611  INFO 20504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-22 15:54:22.622  INFO 20504 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-22 15:54:22.623  INFO 20504 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-22 15:54:22.749  INFO 20504 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-22 15:54:22.750  INFO 20504 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1456 ms
+2020-08-22 15:54:23.273  INFO 20504 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 15:54:23.500  INFO 20504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-22 15:54:23.513  INFO 20504 --- [main] c.h.s.SpringbootDockerApplication        : Started SpringbootDockerApplication in 3.053 seconds (JVM running for 4.756)
+2020-08-22 15:54:33.684  INFO 20504 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-22 15:54:33.684  INFO 20504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-22 15:54:33.688  INFO 20504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-08-22 15:54:39.046  INFO 20504 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-22 15:56:41.715  INFO 27544 --- [main] c.h.s.SpringbootDockerApplication        : Starting SpringbootDockerApplication on 信息部赵浩男 with PID 27544 (D:\Study\Code\springboot-docker\target\classes started by 14585 in D:\Study\Code\springboot-docker)
+2020-08-22 15:56:41.720 DEBUG 27544 --- [main] c.h.s.SpringbootDockerApplication        : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-22 15:56:41.721  INFO 27544 --- [main] c.h.s.SpringbootDockerApplication        : The following profiles are active: dev
+2020-08-22 15:56:42.269  WARN 27544 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[mapper]' package. Please check your configuration.
+2020-08-22 15:56:42.889  INFO 27544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-22 15:56:42.897  INFO 27544 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-22 15:56:42.898  INFO 27544 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-22 15:56:42.997  INFO 27544 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-22 15:56:42.997  INFO 27544 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1192 ms
+2020-08-22 15:56:43.378  INFO 27544 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 15:56:43.556  INFO 27544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-22 15:56:43.566  INFO 27544 --- [main] c.h.s.SpringbootDockerApplication        : Started SpringbootDockerApplication in 2.369 seconds (JVM running for 3.184)
+2020-08-22 15:56:55.050  INFO 27544 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-22 15:56:55.050  INFO 27544 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-22 15:56:55.055  INFO 27544 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms

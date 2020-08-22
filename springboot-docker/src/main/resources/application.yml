@@ -1,6 +1,10 @@
 server:
   port: 8081
 spring:
+  profiles:
+    active:
+      - dev
+      #- prod
   application:
     name:springboot-docker #服务名称配置
   datasource:
@@ -13,3 +17,4 @@ mybatis:
   type-aliases-package: com.haonan.pojo  #返回实体类地址
   configuration:
     map-underscore-to-camel-case: true  #驼峰命名转换  数据库的下划线换成java中的驼峰
+

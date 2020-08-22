@@ -1,0 +1,34 @@
+2020-08-22 11:29:51.273  INFO 29784 --- [main] c.h.s.SpringbootDockerApplicationTests   : Starting SpringbootDockerApplicationTests on 信息部赵浩男 with PID 29784 (started by 14585 in D:\Study\Code\springboot-docker)
+2020-08-22 11:29:51.275 DEBUG 29784 --- [main] c.h.s.SpringbootDockerApplicationTests   : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-22 11:29:51.275  INFO 29784 --- [main] c.h.s.SpringbootDockerApplicationTests   : The following profiles are active: dev
+2020-08-22 11:29:51.879  WARN 29784 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[mapper]' package. Please check your configuration.
+2020-08-22 11:29:53.669  INFO 29784 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 11:29:54.216  INFO 29784 --- [main] c.h.s.SpringbootDockerApplicationTests   : Started SpringbootDockerApplicationTests in 3.475 seconds (JVM running for 4.583)
+2020-08-22 11:29:54.518 TRACE 29784 --- [main] c.h.s.SpringbootDockerApplicationTests   : 这是trace日志
+2020-08-22 11:29:54.518 DEBUG 29784 --- [main] c.h.s.SpringbootDockerApplicationTests   : 这是debug日志
+2020-08-22 11:29:54.519  INFO 29784 --- [main] c.h.s.SpringbootDockerApplicationTests   : 这是info日志
+2020-08-22 11:29:54.519  WARN 29784 --- [main] c.h.s.SpringbootDockerApplicationTests   : 这是warn日志
+2020-08-22 11:29:54.519 ERROR 29784 --- [main] c.h.s.SpringbootDockerApplicationTests   : 这是error日志
+2020-08-22 11:29:54.542  INFO 29784 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-22 11:30:38.420  WARN 13568 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[mapper]' package. Please check your configuration.
+2020-08-22 11:30:40.131  INFO 13568 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 11:30:40.979  WARN 13568 --- [main] c.h.s.SpringbootDockerApplicationTests   : 这是warn日志
+2020-08-22 11:30:40.980 ERROR 13568 --- [main] c.h.s.SpringbootDockerApplicationTests   : 这是error日志
+2020-08-22 11:30:41.006  INFO 13568 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-22 14:43:13.400  WARN 33888 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[mapper]' package. Please check your configuration.
+2020-08-22 14:43:14.533  INFO 33888 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 14:43:15.101  WARN 33888 --- [main] c.h.s.SpringbootDockerApplicationTests   : 这是warn日志
+2020-08-22 14:43:15.101 ERROR 33888 --- [main] c.h.s.SpringbootDockerApplicationTests   : 这是error日志
+2020-08-22 14:43:15.120  INFO 33888 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-22 === [main] === INFO  === c.h.s.SpringbootDockerApplicationTests ==== Starting SpringbootDockerApplicationTests on 信息部赵浩男 with PID 15040 (started by 14585 in D:\Study\Code\springboot-docker)
+2020-08-22 === [main] === DEBUG === c.h.s.SpringbootDockerApplicationTests ==== Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-22 === [main] === INFO  === c.h.s.SpringbootDockerApplicationTests ==== The following profiles are active: dev
+2020-08-22 === [main] === WARN  === org.mybatis.spring.mapper.ClassPathMapperScanner ==== No MyBatis mapper was found in '[mapper]' package. Please check your configuration.
+2020-08-22 === [main] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 === [main] === INFO  === c.h.s.SpringbootDockerApplicationTests ==== Started SpringbootDockerApplicationTests in 4.018 seconds (JVM running for 5.163)
+2020-08-22 === [main] === TRACE === c.h.s.SpringbootDockerApplicationTests ==== 这是trace日志
+2020-08-22 === [main] === DEBUG === c.h.s.SpringbootDockerApplicationTests ==== 这是debug日志
+2020-08-22 === [main] === INFO  === c.h.s.SpringbootDockerApplicationTests ==== 这是info日志
+2020-08-22 === [main] === WARN  === c.h.s.SpringbootDockerApplicationTests ==== 这是warn日志
+2020-08-22 === [main] === ERROR === c.h.s.SpringbootDockerApplicationTests ==== 这是error日志
+2020-08-22 === [SpringContextShutdownHook] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
